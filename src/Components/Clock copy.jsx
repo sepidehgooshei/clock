@@ -20,7 +20,7 @@ showTime: true
         return(
           <div>
            {showTime && <Time />}
-            <button onClick={this.toggleShoeTime}> {showTime ? 'show time' : 'hide time'}</button>
+            <button onClick={this.toggleShoeTime}> {showTime ? 'Hide time' : 'show time'}</button>
           </div>
         )
 
